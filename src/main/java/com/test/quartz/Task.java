@@ -15,8 +15,7 @@ import org.quartz.JobExecutionException;
  * @author keyboardsun 
  * 
  */  
-public abstract class Task  
-    implements ITask,Job{  
+public abstract class Task implements ITask,Job{  
   
   /** 
    * 这个类是用来记录日志用的噢，呵呵。 
